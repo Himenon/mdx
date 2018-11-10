@@ -127,8 +127,6 @@ async function compile(mdx, options = {}) {
   return contents
 }
 
-compile.sync = sync
-
 module.exports = compile
 exports = compile
 exports.sync = sync

@@ -2,7 +2,7 @@ import React from 'react'
 
 const { Provider, Consumer } = React.createContext({})
 
-export const withMDXComponents = Component => ({ components, ...props }) => (
+export const withMDXComponents = Component => ({ components = undefined, ...props }) => (
   <Consumer>
     {contextComponents => (
       <Component components={components || contextComponents} {...props} />
