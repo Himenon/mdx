@@ -16,8 +16,10 @@
   ],
   "devDependencies": {
     "@compositor/x0": "^6.0.6-0",
+    "@types/node": "^10.12.5",
     "lerna": "^3.4.0",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.2",
+    "typescript": "^3.1.6"
   },
   "dependencies": {
     "@rebass/mdx": "^1.0.0-1",
